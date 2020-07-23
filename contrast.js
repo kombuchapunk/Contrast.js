@@ -110,14 +110,12 @@ class Contrast {
       revScale = this.getCoverScaleFactor();
       // Let's draw the area of the image behind the text (contentEL)
       this.context.drawImage(this.imgEl, this.contentElBox.left / revScale, this.contentElBox.top / revScale, this.contentElBox.width / revScale, this.contentElBox.height / revScale, 0, 0, this.contentElBox.width, this.contentElBox.height);
-      console.log("REVSCALE" + revScale);
     } else {
       // Let's find the reverse scale factor of the image
       // so we can multiply our bounding box coordinates by it
       revScale =  this.imgEl.naturalWidth / this.bgBlock.clientWidth;
       // Let's draw the area of the image behind the text (contentEL)
       this.context.drawImage(this.imgEl, this.contentElBox.left * revScale, this.contentElBox.top * revScale, this.contentElBox.width * revScale, this.contentElBox.height * revScale, 0, 0, this.contentElBox.width, this.contentElBox.height);
-      console.log("REVSCALE" + revScale);
     }
 
     try {
