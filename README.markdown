@@ -1,8 +1,11 @@
 ![Contrast.js logo](img/logo.png)
 ============
-![GitHub package.json version](https://img.shields.io/github/package-json/v/mishapetrov/Contrast.js?color=green&style=flat-square) [![GitHub Size](https://img.shields.io/github/size/MishaPetrov/Contrast.js/contrast.min.js?color=%23ff5757&style=flat-square)](https://github.com/mishapetrov/Contrast.js/contrast.min.js) ![GitHub issues](https://img.shields.io/github/issues/mishapetrov/Contrast.js?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/mishapetrov/Contrast.js?style=flat-square)](https://github.com/mishapetrov/Contrast.js) [![Live Demo](https://img.shields.io/badge/demo-online-blueviolet?style=flat-square)](https://contrastjs.com/example/index.html) 
+![GitHub package.json version](https://img.shields.io/github/package-json/v/mishapetrov/Contrast.js?color=green&style=flat-square) [![GitHub Size](https://img.shields.io/github/size/MishaPetrov/Contrast.js/contrast.min.js?color=%23ff5757&style=flat-square)](https://github.com/mishapetrov/Contrast.js/contrast.min.js) ![GitHub issues](https://img.shields.io/github/issues/mishapetrov/Contrast.js?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/mishapetrov/Contrast.js?style=flat-square)](https://github.com/mishapetrov/Contrast.js) [![Live Demo](https://img.shields.io/badge/demo-online-blueviolet?style=flat-square)](https://contrastjs.com/example/index.html)
 
-This is a node.js chat application powered by SockJS and Express that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
+Contrast.js is a tiny (4.26kb) library with no dependencies that adds responsiveness to the color or background attributes of DOM elements based on the section of background image behind the target element.
+The library analyzes the background behind the bounding box of the target element by getting the average RGB values of pixels in the sub-rectangle behind the element and finding the best contrasting color.
+
+In simple words, never worry about your color matching the background image again! No more countless media queries.
 
 ![GIF demo](img/demo-2.gif)
 
@@ -16,26 +19,15 @@ Whether you use this project, have learned something from it, or just like it, p
 ---
 
 ## Features
-- Material Design
-- Emoji support
-- User @mentioning
-- Private messaging
-- Message deleting (for admins)
-- Ability to kick/ban users (for admins)
-- See other user's IPs (for admins)
-- Other awesome features yet to be implemented
-
-.
-![User Features](http://i.imgur.com/WbF1fi2.png)
-
-.
-![Admin Features](http://i.imgur.com/xQFaadt.png)
-
-
-#### There are 3 admin levels:
-- **Helper:** Can delete chat messages
-- **Moderator:** The above plus the ability to kick and ban users
-- **Administrator:** All the above plus send global alerts and promote/demote users
+- Vanilla JS - no jQuery or any other dependencies
+- Very simple setup/activation
+- Support for responsive font color
+- Support for responsive div background color
+- Support for background-size: cover;
+- Support for background-size: 100%;
+- Option to add custom colors to switch between (Light/Dark)
+- Option to change activation class names
+- Option to turn on/off activation on window resize event
 
 ---
 
