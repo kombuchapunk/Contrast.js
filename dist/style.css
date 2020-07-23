@@ -8,17 +8,22 @@ html, body {
 .block-with-background {
   position: relative;
   /* padding: 100px; */
-  background-image: url("./images/test-2.jpg");
+  background-image: url("./images/test-4.jpg");
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 440px;
 }
 
-#h1 {
+.color-block {
+  max-width: 420px;
+  padding: 10px;
+  margin: 160px auto 0 auto;
+}
+
+h1 {
   position: relative;
-  margin-left: 10%;
-  max-width: 320px;
-  font-size: 2em;
+  /* font-size: 3.2em; */
+  text-align: center;
   font-family: 'Abril Fatface', cursive;
 }
 
