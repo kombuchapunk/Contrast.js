@@ -1,4 +1,4 @@
-![Contrast.js logo](img/logo.png)
+![Contrast.js logo](https://mishapetrov.github.io/Contrast.js/img/logo.png)
 ============
 ![npm](https://img.shields.io/npm/v/contrast-js?color=green&style=flat-square) [![GitHub Size](https://img.shields.io/github/size/MishaPetrov/Contrast.js/contrast.min.js?color=%23ff5757&style=flat-square)](https://github.com/mishapetrov/Contrast.js/contrast.min.js) ![GitHub issues](https://img.shields.io/github/issues/mishapetrov/Contrast.js?style=flat-square) [![GitHub stars](https://img.shields.io/github/stars/mishapetrov/Contrast.js?style=flat-square)](https://github.com/mishapetrov/Contrast.js) [![Live Demo](https://img.shields.io/badge/demo-online-blueviolet?style=flat-square)](https://mishapetrov.github.io/Contrast.js/example/)
 
