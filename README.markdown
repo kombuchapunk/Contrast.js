@@ -53,8 +53,8 @@ $ npm install contrast-js
 ## Run
 Add `contrast-bg` and `contrast-el` classes to the element that has the background image and the target element, respectively like this:
 ```html
-<div class="contrast-bg">
-  <h1 class="contrast-el">Resize and watch my color change</h1>
+<div class="block-with-background contrast-bg">
+  <h1 class="color-block contrast-el">Resize and watch my color change</h1>
 </div>
 ```
 
@@ -64,6 +64,23 @@ const Contrast = require('contrast-js');
 
 let contrast = new Contrast;
 contrast.launch();
+```
+
+Here's an example of CSS styling. Make sure the image is hosted either on the same server or on the domain with CORS enabled.
+```css
+.block-with-background {
+  position: relative;
+  background-image: url("../images/test-1.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 440px;
+}
+
+.color-block {
+  max-width: 420px;
+  padding: 10px;
+  margin: 160px auto 0 auto;
+}
 ```
 
 Contrast class also accepts options object like below:
