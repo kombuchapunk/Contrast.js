@@ -8,7 +8,7 @@ html, body {
 .block-with-background {
   position: relative;
   /* padding: 100px; */
-  background-image: url("./images/test-4.jpg");
+  background-image: url("../images/test-1.jpg");
   background-size: cover;
   width: 100%;
   height: 440px;
