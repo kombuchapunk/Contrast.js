@@ -1,6 +1,6 @@
 ![Contrast.js logo](img/logo.png)
 ============
-[![GitHub Size](https://img.shields.io/github/size/MishaPetrov/Contrast.js/contrast.min.js?color=%23ff5757&style=flat-square)](https://github.com/mishapetrov/Contrast.js/contrast.min.js) ![GitHub issues](https://img.shields.io/github/issues/mishapetrov/Contrast.js?style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/mishapetrov/Contrast.js?style=flat-square)(https://github.com/mishapetrov/Contrast.js/stars) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat) [![Live Demo](https://img.shields.io/badge/demo-online-blueviolet?style=flat-square)](https://contrastjs.com/example/index.html) 
+[![GitHub Size](https://img.shields.io/github/size/MishaPetrov/Contrast.js/contrast.min.js?color=%23ff5757&style=flat-square)](https://github.com/mishapetrov/Contrast.js/contrast.min.js) ![GitHub issues](https://img.shields.io/github/issues/mishapetrov/Contrast.js?style=flat-square) ![GitHub stars](https://img.shields.io/github/stars/mishapetrov/Contrast.js?style=flat-square)(https://github.com/mishapetrov/Contrast.js) [![Current Version](https://img.shields.io/badge/version-1.0.7-green.svg)](https://github.com/IgorAntun/node-chat) [![Live Demo](https://img.shields.io/badge/demo-online-blueviolet?style=flat-square)](https://contrastjs.com/example/index.html) 
 
 This is a node.js chat application powered by SockJS and Express that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
 
