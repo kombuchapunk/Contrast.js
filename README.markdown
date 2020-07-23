@@ -92,7 +92,7 @@ contrast.launch();
 
 ---
 
-![FictionTribe Logo](/img/ft-logo.png =100x)  
+<img alt="FictionTribe Logo" src="/img/ft-logo.png" width="70">  
 Created at [Fiction Tribe ®](https://fictiontribe.com)
 
 ---
