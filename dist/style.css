@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.block-with-background {
+  position: relative;
+  /* padding: 100px; */
+  background-image: url("./images/test-2.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+#h1 {
+  position: relative;
+  margin-left: 10%;
+  max-width: 320px;
+  font-size: 2em;
+  font-family: 'Abril Fatface', cursive;
+}
+
+canvas {
+  position: relative;
+}
