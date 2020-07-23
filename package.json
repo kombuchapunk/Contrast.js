@@ -1,6 +1,6 @@
 {
   "name": "contrast-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Contrast.js is a tiny (4.26kb) library with no dependencies that adds responsiveness to the color or background attributes of DOM elements based on the section of background image behind the target element. The library analyzes the background behind the bounding box of the target element by getting the average RGB values of pixels in the sub-rectangle behind the element and finding the best contrasting color. In simple words, never worry about your color matching the background image again! No more countless media queries.",
   "main": "contrast.js",
   "directories": {
