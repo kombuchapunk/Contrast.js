@@ -4,7 +4,7 @@
 
 This is a node.js chat application powered by SockJS and Express that provides the main functions you'd expect from a chat, such as emojis, private messages, an admin system, etc.
 
-![GIF demo](img/demo.gif)
+![GIF demo](img/demo-2.gif)
 
 ---
 ## Buy me a coffee
