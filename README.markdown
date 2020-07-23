@@ -35,7 +35,7 @@ Whether you use this project, have learned something from it, or just like it, p
 ## Install
 To start working with Contrast.js right away, just add this line before your closing <body> tag:
 ```html
-<script type="text/javascript" src="https//cdn.jsdelivr.net/npm/contrast-js@0.0.2/contrast.min.js">
+<script type="text/javascript" src="https//cdn.jsdelivr.net/npm/contrast-js@0.0.3/contrast.min.js">
 ```
 
 Alternatively, Contrast.js can be installed with [`npm`](https://www.npmjs.com/package/contrast-js)
