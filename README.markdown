@@ -85,7 +85,18 @@ contrast.launch();
 
 ---
 
+## What's not there yet
+- Currently the library supports changing color for only ONE element.
+- background-position isn't supported yet
+
+---
+
+Created at [Fiction Tribe ®](https://fictiontribe.com)
+![FictionTribe Logo](/images/ft-logo.png)
+
+---
+
 ## License
->You can check out the full license [here](https://github.com/IgorAntun/node-chat/blob/master/LICENSE)
+>You can check out the full license [here](https://github.com/mishapetrov/Contrast.js/LICENSE)
 
 This project is licensed under the terms of the **MIT** license.
