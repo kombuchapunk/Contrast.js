@@ -92,8 +92,9 @@ contrast.launch();
 
 ---
 
+## Family creds
 <img alt="FictionTribe Logo" src="/img/ft-logo.png" width="70">  
-Created at [Fiction Tribe ®](https://fictiontribe.com)
+Created at <a style="color:#52337c;" href="https://fictiontribe.com">Fiction Tribe ®</a> in Portland, OR
 
 ---
 
