@@ -31,19 +31,57 @@ Whether you use this project, have learned something from it, or just like it, p
 
 ---
 
-## Setup
-Clone this repo to your desktop and run `npm install` to install all the dependencies.
+## Install
+To start working with Contrast.js right away, just add this line before your closing <body> tag:
+```html
+<script type="text/javascript" src="https//cdn.jsdelivr.net/npm/contrast-js@0.0.2/contrast.min.js">
+```
 
-You might want to look into `config.json` to make change the port you want to use and set up a SSL certificate.
+Alternatively, Contrast.js can be installed with [`npm`](https://www.npmjs.com/package/contrast-js)
+```sh
+$ npm install contrast-js
+```
+
+…or include the file from this repo…
+```html
+<script src="contrast.min.js"></script>
+```
 
 ---
 
-## Usage
-After you clone this repo to your desktop, go to its root directory and run `npm install` to install its dependencies.
+## Run
+Add `contrast-bg` and `contrast-el` classes to the element that has the background image and the target element, respectively like this:
+```html
+<div class="contrast-bg">
+  <h1 class="contrast-el">Resize and watch my color change</h1>
+</div>
+```
 
-Once the dependencies are installed, you can run  `npm start` to start the application. You will then be able to access it at localhost:3000
+To run Contrast.js, create new instance of Contrast class and invoke launch() method on it.
+```javascript
+const Contrast = require('contrast-js');
 
-To give yourself administrator permissions on the chat, you will have to type `/role [your-name]` in the app console.
+let contrast = new Contrast;
+contrast.launch();
+```
+
+Contrast class also accepts options object like below:
+```javascript
+const Contrast = require('contrast-js');
+
+let contrast = new Contrast({
+  isCustomColors: false,        // Set to true if you want to prebuild light/dark colors
+  customLight: "#bddfe0",       // dark color HEX if isCustomColors is set to true
+  customDark: "#334054",        // light color HEX if isCustomColors is set to true
+  backgroundSize: "cover",      // "cover" or "100%" based on the background-size property in css
+  bgClass: "contrast-bg",       // Option to rename the class for the element containing bg image
+  elementClass: "contrast-el",  // Option to rename the class for the target element
+  isDiv: false,                 // Set to true if the element is a div (to change it's background)
+  isResponsive: true            // Turn this so the module runs on window resize
+});
+
+contrast.launch();
+```
 
 ---
 
