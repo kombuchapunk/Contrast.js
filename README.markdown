@@ -10,13 +10,6 @@ In simple words, never worry about your color matching the background image agai
 ![GIF demo](img/demo-2.gif)
 
 ---
-## Buy me a coffee
-
-Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
-
-<a href="https://www.buymeacoffee.com/mishka" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
-
----
 
 ## Features
 - Vanilla JS - no jQuery or any other dependencies
@@ -92,7 +85,15 @@ contrast.launch();
 ---
 
 Created at [Fiction Tribe ®](https://fictiontribe.com)
-![FictionTribe Logo](/images/ft-logo.png)
+![FictionTribe Logo](/img/ft-logo.png)
+
+---
+
+## Buy me a coffee
+
+Whether you use this project, have learned something from it, or just like it, please consider supporting it by buying me a coffee, so I can dedicate more time on open-source projects like this :)
+
+<a href="https://www.buymeacoffee.com/mishka" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ---
 
